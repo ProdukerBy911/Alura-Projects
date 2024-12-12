@@ -15,11 +15,15 @@ public class Main {
 
         String sinopse;
         sinopse = """
-                Dois agentes se disfarção em uma missão para
+                 Dois agentes se disfarção em uma missão para
                  apreender um leilão de armas e pessoal ilegal,
                  mas durante a investigação os agentes se mentem em varias enrascadas!
                 """;
-
         System.out.println(sinopse);
+
+        int classificacao = (int) (media/2);
+        System.out.println(classificacao);
+
+
     }
 }
